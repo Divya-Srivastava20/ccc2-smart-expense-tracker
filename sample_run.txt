@@ -1,16 +1,146 @@
+SAMPLE INPUT/OUTPUT:
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 1
+Enter monthly budget: 10000
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 2 
+Enter category: food
+Enter amount: 2000
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 2
+Enter category: travel
+Enter amount: 3000
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 2
+Enter category: rent
+Enter amount: 3000
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 2
+Enter category: shopping
+Enter amount: 3000
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 2
+Enter category: cafe
+Enter amount: 800
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 3
+
+--- Expenses ---
+food : 2000
+travel : 3000
+rent : 3000
+shopping : 3000
+cafe : 800
+Total Spending: 11800
 Budget: 10000
+You exceeded budget by 1800
 
-Expenses:
-Food 3000
-Travel 4000
-Shopping 2000
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 4
 
-Total Spending: 9000
-Within Budget
+===== Expense Summary =====
+Total Spending: 11800
+Budget: 10000
+You exceeded budget by 1800
 
-Greedy:
-Reduce Travel (4000)
+Choose option:
+1. Save based on budget
+2. Enter custom saving goal
+Enter: 1
 
-DP:
-Optimal saving:
-3000 + 2000 = 5000
+You need to save: 1800
+
+===== Greedy Approach =====
+Reduce from travel (3000)
+Total by Greedy: 3000
+Γ£ö Target achieved (may exceed)
+
+===== DP Approach =====
+Optimal saving: 800
+Cut expenses from:
+cafe (800)
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 4
+
+===== Expense Summary =====
+Total Spending: 11800
+Budget: 10000
+You exceeded budget by 1800
+
+Choose option:
+1. Save based on budget
+2. Enter custom saving goal
+Enter: 2
+Enter amount you want to save: 2000
+
+You need to save: 2000
+
+===== Greedy Approach =====
+Reduce from travel (3000)
+Total by Greedy: 3000
+Γ£ö Target achieved (may exceed)
+
+===== DP Approach =====
+Optimal saving: 2000
+Cut expenses from:
+food (2000)
+
+===== Smart Expense Tracker =====
+1. Set Monthly Budget
+2. Add Expense
+3. Display Report
+4. Suggest Savings (Greedy + DP)
+5. Exit
+Enter choice: 5
