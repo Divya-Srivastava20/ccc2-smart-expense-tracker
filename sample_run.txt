@@ -1,0 +1,16 @@
+Budget: 10000
+
+Expenses:
+Food 3000
+Travel 4000
+Shopping 2000
+
+Total Spending: 9000
+Within Budget
+
+Greedy:
+Reduce Travel (4000)
+
+DP:
+Optimal saving:
+3000 + 2000 = 5000
