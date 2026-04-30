@@ -80,5 +80,12 @@ smart-expense-tracker-c/
 gcc main.c -o tracker
 ./tracker
 
+## Time Complexity:
+- Greedy Algorithm: O(n log n) (due to sorting)
+- Dynamic Programming: O(n × target)
+Where:
+- n = number of expenses
+- target = required savings amount
+  
 ## Conclusion:
 This project demonstrates how fundamental algorithms like Greedy and Dynamic Programming can be applied to solve real-world problems such as expense management. It not only helps users track their spending but also provides intelligent suggestions for financial planning. The project highlights the importance of algorithmic thinking in everyday decision-making and improves understanding of efficiency and optimality in problem-solving.
